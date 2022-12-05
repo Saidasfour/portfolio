@@ -1,0 +1,1326 @@
+html *
+{
+    font-family: 'Inter', sans-serif;
+   margin: 0px;
+}
+.navContainer{
+width: 100%;
+height: 70px;
+background-color: #F8F7F1;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+color: #0D2F3F;
+}
+.logoWrapper{
+    width: 60px;
+    height: 50px;
+    object-fit:contain ;
+    
+}
+.ulNav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.liNav{
+    margin-right:30px ;
+    font-size: 14px;
+}
+.liNav:hover{
+    text-decoration: underline;
+    color: #286F6C;
+    cursor: pointer;
+}
+.phoneNumber{
+    font-size: 14px;
+    font-weight:600;
+}
+.phoneNumberWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.phoneIconWrapper{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+.header1Container{
+    width: 100%;
+    height: 250px;
+    background-color: #F8F7F1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.header1Element1{
+    font-size: 60px;
+    font-weight:bold;
+    color: #0D2F3F;
+    font-family: 'Inter','ExtraBold';
+    width: 35%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.header1Element1text2{
+    width: 35%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.header1Element2{
+    width: 200px;
+    color:#0D2F3F;
+    font-size:17px;
+    font-weight: 300;
+    
+}
+.header2Container{
+    width: 100%;
+    height: 350px;
+    background-color: #F8F7F1;
+    display: flex;
+    flex-direction: row;
+    
+}
+.header2Element1{
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    height: 100%;
+    width: 35%;
+    align-items: center;
+}
+.header2Element1Row{
+    display:flex ;
+    flex-direction:column;
+    justify-content:space-around;
+    height:100%;
+}
+.email{
+    color: #F26C4A;
+    text-decoration:underline;
+    font-weight: 500;
+    font-size: 18px;
+}
+.yearsExperience{
+    display: flex;
+    flex-direction:row;
+    color: #0D2F3F;
+    width: 100px;
+}
+.yearsExperienceNumber{
+    font-weight: bold;
+    font-size:50px;
+    margin-right: 5px;
+}
+.yearsExperienceText{
+    font-size:20 ;
+    color: #0D2F3F;
+}
+.header2Element2{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header2Image1{
+    width: 500px;
+    height:500px
+}
+.header2Image2{
+    width: 650px;
+    height:500px;
+    position:absolute;
+    left:-60px;
+    bottom: 44px;
+    object-fit:contain ;
+}
+.header2Element3{
+    width: 35%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.header2image3{
+    width: 150px ;
+    height:150px;
+}
+.header2CertifiedText{
+    width:150px;
+    text-align: center;
+    color: #0D2F3F;
+}
+
+
+
+
+
+
+
+
+.body1Container{
+    height: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.body1Column1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.column1ElementWrapper{
+    width: 350px;
+    height:120px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    border: 2px solid #F8F7F1;
+}
+.column1ElementWrapper:hover{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    cursor: pointer;
+}
+.leftPartWrapper{
+    width: 40%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.column1ElementIconWrapper{
+    background-color:#286F6C ;
+    padding: 25px;
+    border-radius: 40px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.column1Icon{
+    font-size: 25px;
+}
+.column1TextsWrapper{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.column1Text1{
+    font-size: 17px;
+    font-weight: bold;
+    color:#0D2F3F;
+    margin-bottom: 20px;
+}
+.column1Text2{
+    color:#0D2F3F;
+}
+.body1Column2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.body1Column2text1{
+    font-size: 50px;
+    color: #0D2F3F;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.body1Column2text2{
+    color: gray;
+    line-height: 2.5rem;
+    font-size: 14px;
+    width: 440px;
+    margin-bottom: 20px;
+
+}
+.body1Column2text3{
+    color: gray;
+    line-height: 2.5rem;
+    font-size: 14px;
+    width: 440px;
+    margin-bottom: 10px;
+}
+.success{
+    display: flex;
+    flex-direction: row;
+}
+.projectCompleted{
+    display: flex;
+    flex-direction: column;
+    margin-right: 35px;
+}
+.projectCompletedNumber{
+    font-size: 50px;
+    color: #0D2F3F;
+    font-weight: bold;
+}
+.projectCompletedText{
+    color: #0D2F3F;
+    font-size: 14px;
+}
+
+
+
+
+
+
+.body2Container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 800px;
+    background-color: #F8F7F1;
+}
+.body2Title{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    color: #0D2F3F;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.body2RowWrapper{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.body2Column1{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+.body2Column1Wrapper{
+    display: flex;
+    justify-content:space-between;
+    flex-direction:column;
+    height:100%;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.body2Column1Texts{
+    
+}
+.body2Column1Text1{
+    font-size: 18px;
+    font-weight: 800;
+    color: #0D2F3F;
+    margin-bottom: 13px;
+}
+.body2Column1Text2{
+color: #0D2F3F;
+max-width: 500px;
+width: 300;
+}
+.body2MiddleColumn{
+width: 10%;
+height: 100%;
+}
+.body2LineWrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.body2Line{
+    height: 25%;
+    width: 1px;
+    border-right: 1px dashed black;
+}
+.body2BallWrapper{
+    border-radius: 50px;
+    width:50px;
+    height:50px;
+    border:1px dashed black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body2Ball{
+    height: 30px;
+    width: 30px;
+    background-color: #286F6C;
+    border-radius: 30px;
+}
+
+
+
+
+.body3Container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+}
+.body3Row1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 30%;
+}
+.body3Row1Element1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.body3Row1Element1Text1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0D2F3F;
+    margin-bottom: 10px;
+}
+.body3Row1Element1Text2{
+    font-size: 15px;
+    color: #0D2F3F;
+}
+.body3Row1Element2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.body3Row1Element2Text{
+    color: #F26C4A;
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 16;
+}
+.body3Row2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70%;
+    margin-top: 20px;
+}
+.body3Row2Element1{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    
+}
+.body3Row2Element1Box1{
+width: 400px;
+height: 250px;
+background-color:#EEC049;
+border-radius: 15px;
+margin-right: 20px;
+position: relative;
+overflow: hidden;
+margin-left: 50px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.body3Row2Element1Box1Texts{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 25px;
+}
+.body3Row2Element1Box1Text1{
+color: white;
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+.body3Row2Element1Box1Text2{
+    color: white;
+    font-size: 15px;
+}
+.body3Image{
+width: 350px;
+height: 300px;
+object-fit: contain;
+}
+.body3ImageWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom:-107px;
+    left: 30px;
+}
+.body3Row2Element1Box2{
+    width: 400px;
+    height: 250px;
+    background-color:#286F6C;
+    border-radius: 15px;
+    margin-right: 20px;
+    position: relative;
+    overflow: hidden;
+    margin-right: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+
+
+.body4Container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 600px;
+background-color: #F8F7F1;
+overflow: hidden;
+}
+.body4Title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0D2F3F;
+    margin-bottom: 17px;
+}
+.body4Subtitle{
+    color: #0D2F3F;
+    width: 520px;
+    line-height: 2rem;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.CardsWrapper{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+.body4Card{
+    width: 450px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.body4Description{
+font-size: 12px;
+text-align: center;
+color: gray;
+margin-bottom: 10px;
+width: 80%;
+}
+.body4Line{
+    width: 80%;
+    border-top: 2px solid #F8F7F1;
+    margin-bottom: 10px;
+}
+.body4Name{
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 7px;
+    color: #0D2F3F;
+}
+.body4Major{
+    font-size: 11px;
+    color: gray;
+}
+.body4UserIcon{
+    
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    top: -25px;
+}
+.buttonsWrapper{
+    display: flex;
+    flex-direction: row;
+}
+.buttonWrapper{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0D2F3F;
+    margin-right: 20px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+}
+.buttonWrapper:hover{
+    background-color: #286F6C;
+    color: white;
+}
+.next{
+    margin-right: 1150px;
+}
+.prev{
+    margin-left: 1150px; 
+}
+
+
+
+
+.body5Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+.body5Column1{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+}
+.body5ColumnText{
+    font-size: 40px;
+    font-weight: bold;
+    width: 500px;
+    margin-bottom: 30px;
+    color: #0D2F3F;
+}
+.body5Input1{
+    width: 500px;
+    height: 30px;
+    border: 1px solid #D3D3D3;
+    border-radius: 7px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+.body5Input2{
+    width: 500px;
+    height: 100px;
+    border: 1px solid #D3D3D3;
+    border-radius: 7px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+.body5Button{
+width: 150px;
+height: 25px;
+background-color:#F26C4A ;
+border-radius: 7px;
+display: flex;
+margin-left: 360px;
+display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body5Button:hover{
+cursor: pointer;
+background-color: #f26440;
+}
+.body5ButtonText{
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+}
+.body5Column2{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+}
+.body5Column2Text1{
+    font-weight:700;
+    font-size: 18px;
+    color: #0D2F3F;
+    margin-bottom:15px ;
+}
+.body5Column2Text2{
+    font-size: 12px;
+    color:#0D2F3F;
+    margin-bottom: 30px;
+}
+.body5Links{
+    list-style: none;
+    text-decoration: none;
+    font-size: 12px;
+    color: #0D2F3F;
+    margin-bottom: 30px;
+    display: block;
+}
+.body5Links:hover{
+    text-decoration: underline;
+    color: #286F6C;
+}
+
+.footerWrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.footerLine{
+    width: 80%;
+    border-top: 2px solid #f8f7f1;
+    height: 1px;
+    margin-bottom: 15px;
+}
+.footer{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.logofooter{
+
+    padding-left: 40px;
+}
+.rightsfooter{
+    padding-right: 40px; 
+    font-size: 11px;
+}
+@media only screen and (max-width: 720px) {
+    .logoWrapper{
+    width: 40px;
+    height: 30px;
+    }
+    .liNav{
+    margin-right:15px ;
+    font-size: 10px;
+    }
+    .phoneNumber{
+        font-size: 10px;
+    }
+    .phoneIconWrapper{
+        width: 30px;
+    height: 30px;
+    }
+    .header1Container{
+        height: 150px;
+    }
+    .header1Element1 {
+      font-size: 30px;
+    }
+    .header1Element2{
+        font-size: 13px;
+    }
+    .header2Container{
+        height: 230px;
+    }
+    .email{
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .yearsExperienceNumber{
+        font-size:20px;
+        margin-left: 10px;
+    }
+    .yearsExperienceText{
+        font-size:11px;
+    }
+    .header2Image1{
+    width: 225px;
+    height:225px
+    }
+    .header2Image2{
+        width: 375px;
+        height:225px;
+        bottom: 0px;
+    }
+    .header2image3{
+        width: 90px ;
+        height:90px;
+    }
+    .header2CertifiedText{
+        font-size: 11px;
+    }
+
+
+
+
+    .body1Container{
+        height: 400px;
+    }
+    .column1ElementWrapper{
+        width: 235px;
+        height:80px;
+        margin-bottom: 20px;
+    }
+    .column1ElementIconWrapper{
+        padding: 16px;
+    }
+    .column1Icon{
+        font-size: 16px; 
+    }
+    .column1Text1{
+        font-size: 13px;
+    }
+    .column1Text2{
+        font-size: 10px;
+    }
+    .body1Column2text1{
+        font-size: 20px;
+    }
+    .body1Column2text2{
+        font-size: 10px;
+        width: 270px;
+        line-height: 2rem;
+        margin-bottom: 15px;
+    }
+    .body1Column2text3{
+        font-size: 10px;
+        width: 270px;
+        line-height: 2rem;
+        margin-bottom: 5px;
+    }
+    .projectCompleted{
+        margin-right: 20px;
+    }
+    .projectCompletedNumber{
+        font-size: 25px; 
+    }
+    .projectCompletedText{
+        font-size: 10px;
+    }
+
+
+
+    .body2Container{
+        height: 600px;
+    }
+    .body2Title{
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+    .body2Column1Wrapper{
+        padding-bottom: 48px;
+        padding-top: 48px;
+        margin-left: 40px;
+    }
+    .body2Column1Text1{
+        font-size: 11px;
+        margin-bottom: 10px;
+    }
+    .body2Column1Text2{
+        width: 250px;
+        font-size: 9px;
+        max-width: 300px;
+        }
+        .body2Line{
+            height: 30%;
+        }
+        .body2BallWrapper{
+            width:30px;
+            height:30px;
+        }
+        .body2Ball{
+            height: 15px;
+            width: 15px;
+        }
+
+
+
+
+        .body3Container{
+            height: 350px;
+        }
+        .body3Row1Element1Text1{
+            font-size: 20px;
+        }
+        .body3Row1Element1Text2{
+            font-size: 11px;
+        }
+        .body3Row1Element2Text{
+            font-size: 12;
+        }
+        .body3Row2Element1Box1{
+            width: 300px;
+            height: 150px;
+            margin-right: 20px;
+            margin-left: 10px;
+            }
+            .body3Row2Element1Box1Texts{
+                padding-top: 10px;
+                padding-left: 5px;
+            }
+            .body3Row2Element1Box1Text1{
+                font-size: 13px;
+                margin-bottom: 7px;
+                }
+                .body3Row2Element1Box1Text2{
+                    font-size: 10px;
+                }
+                .body3Row1Element2Text{
+                    font-size: 11px;
+                }
+                .body3Image{
+                    width: 200px;
+                    height: 150px;
+                    object-fit: contain;
+                    }
+                    .body3ImageWrapper{
+                        bottom:-40px;
+                        left: 40px;
+                    }
+                    .body3Row2Element1Box2{
+                        width: 300px;
+                       height: 150px;
+                       margin-right: 20px;
+                       margin-left: 10px;
+                    }
+
+
+
+
+
+                    .body4Container{
+
+                        height: 400px;
+
+                    }
+                    .body4Title{
+                        font-size: 20px;
+                        margin-bottom: 13px;
+                    }
+                    .body4Subtitle{
+                        width: 400px;
+                        line-height: 2rem;
+                        text-align: center;
+                        font-size: 11px;
+                        margin-bottom: 40px;
+                    }
+                    .CardsWrapper{
+                        margin-bottom: 20px;
+                    }
+                    .body4Card{
+                        width: 330px;
+                        height: 130px;
+                        margin-right: 20px;
+                        margin-left: 20px;
+                    }
+                    .body4Description{
+                    font-size: 9px;
+                    text-align: center;
+                    color: gray;
+                    margin-bottom: 7px;
+                    width: 80%;
+                    }
+                    .body4Name{
+                        font-weight: 700;
+                        font-size: 11px;
+                        margin-bottom: 5px;
+                        color: #0D2F3F;
+                    }
+                    .body4Major{
+                        font-size: 9px;
+                        color: gray;
+                    }
+                    .body4UserIcon{
+                        
+                        position: absolute;
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 30px;
+                        top: -20px;
+                    }
+
+
+                    .buttonWrapper{
+                        width: 20px;
+                        height: 20px;
+                        margin-right: 10px;
+                    }
+                    .next{
+                        margin-right: 700px;
+                    }
+                    .prev{
+                        margin-left: 700px; 
+                    }
+
+
+
+
+
+                    .body5Container{
+                        
+                        height: 300px;
+                        
+                    }
+                    .body5ColumnText{
+                        font-size: 20px;
+                        
+                        width: 350px;
+                        margin-bottom: 20px;
+                        
+                    }
+                    .body5Input1{
+                        width: 350px;
+                        height: 25px;
+                        margin-bottom: 10px;
+                    }
+                    .body5Input2{
+                        width: 350px;
+                        height: 80px;
+                        margin-bottom: 10px;
+                    }
+                    .body5Button{
+                    width: 100px;
+                    height: 20px;
+                    margin-left: 260px;
+                    }
+                    .body5ButtonText{
+                        font-size: 10px;
+                    }
+                    .body5Column2Text1{
+                        font-size: 14px;
+                        margin-bottom:10px ;
+                    }
+                    .body5Column2Text2{
+                        font-size: 9px;
+                        margin-bottom: 20px;
+                    }
+                    .body5Links{
+                        
+                        font-size: 9px;
+                        margin-bottom: 20px;
+                    }
+                    .rightsfooter{
+                        font-size: 9px;
+                    }
+                    
+  }
+
+  @media only screen and (min-width: 721px) and (max-width:920px) {
+    .logoWrapper{
+    width: 50px;
+    height: 40px;
+    }
+    .liNav{
+    margin-right:12px ;
+    font-size: 12px;
+    }
+    .phoneNumber{
+        font-size: 12px;
+    }
+    .phoneIconWrapper{
+        width: 30px;
+    height: 30px;
+    }
+    .header1Container{
+        height: 200px;
+    }
+    .header1Element1 {
+      font-size: 38px;
+    }
+    .header1Element2{
+        font-size: 15px;
+    }
+    .header2Container{
+        height: 290px;
+    }
+    .email{
+        font-size: 11px;
+    }
+    .yearsExperienceNumber{
+        font-size:38px;
+    }
+    .yearsExperienceText{
+        font-size:16px;
+    }
+    .header2Image1{
+    width: 362px;
+    height:362px
+    }
+    .header2Image2{
+        width: 512px;
+        height:362px;
+        bottom: 28px;
+    }
+    .header2image3{
+        width: 120px ;
+        height:120px;
+    }
+    .header2CertifiedText{
+        font-size: 16px;
+    }
+
+
+
+    .body1Container{
+        height: 475px;
+    }
+    .column1ElementWrapper{
+        width: 250px;
+        height:100px;
+        margin-bottom: 20px;
+    }
+    .column1ElementIconWrapper{
+        padding: 20px;
+    }
+    .column1Icon{
+        font-size: 20px; 
+    }
+    .column1Text1{
+        font-size: 15px;
+    }
+    .column1Text2{
+        font-size: 13px;
+    }
+    .body1Column2text1{
+        font-size: 30px;
+    }
+    .body1Column2text2{
+        font-size: 12px;
+        width: 290px;
+        line-height: 2.2rem;
+        margin-bottom: 17px;
+    }
+    .body1Column2text3{
+        font-size: 12px;
+        width: 290px;
+        line-height: 2.2rem;
+        margin-bottom: 5px;
+    }
+    .projectCompleted{
+        margin-right: 22px;
+    }
+    .projectCompletedNumber{
+        font-size: 30px; 
+    }
+    .projectCompletedText{
+        font-size: 12px;
+    }
+
+
+
+
+
+    .body2Container{
+        height: 700px;
+    }
+    .body2Title{
+        font-size: 30px;
+        margin-top: 40px;
+        margin-bottom: 22px;
+    }
+    .body2Column1Wrapper{
+        padding-bottom: 54px;
+        padding-top: 54px;
+        margin-left: 30px;
+    }
+    .body2Column1Text1{
+        font-size: 13px;
+        margin-bottom: 12px;
+    }
+    .body2Column1Text2{
+        width: 280px;
+        font-size: 11px;
+        max-width: 340px;
+        }
+        .body2Line{
+            height: 30%;
+        }
+        .body2BallWrapper{
+            width:40px;
+            height:40px;
+        }
+        .body2Ball{
+            height: 22px;
+            width: 22px;
+        }
+
+
+
+
+
+        .body3Container{
+            height: 400px;
+        }
+        .body3Row1Element1Text1{
+            font-size: 25px;
+        }
+        .body3Row1Element1Text2{
+            font-size: 15px;
+        }
+        .body3Row1Element2Text{
+            font-size: 16;
+        }
+        .body3Row2Element1Box1{
+            width: 300px;
+            height: 200px;
+            margin-right: 20px;
+            margin-left: 20px;
+            }
+            .body3Row2Element1Box1Texts{
+                padding-top: 15px;
+                padding-left: 10px;
+            }
+            .body3Row2Element1Box1Text1{
+                font-size: 17px;
+                margin-bottom: 10px;
+                }
+                .body3Row2Element1Box1Text2{
+                    font-size: 15px;
+                }
+                .body3Row1Element2Text{
+                    font-size: 15px;
+                }
+                .body3Image{
+                    width: 300px;
+                    height: 200px;
+                    object-fit: contain;
+                    }
+                    .body3ImageWrapper{
+                        bottom:-55px;
+                        left: 3px;
+                    }
+                    .body3Row2Element1Box2{
+                        width: 300px;
+                        height: 200px;
+                        margin-right: 20px;
+                        margin-left: 20px;
+                    }
+
+
+
+                    .body4Container{
+
+                        height: 500px;
+
+                    }
+                    .body4Title{
+                        font-size: 25px;
+                        margin-bottom: 15px;
+                    }
+                    .body4Subtitle{
+                        width: 450px;
+                        line-height: 2rem;
+                        text-align: center;
+                        font-size: 13px;
+                        margin-bottom: 50px;
+                    }
+                    .CardsWrapper{
+                        margin-bottom: 30px;
+                    }
+                    .body4Card{
+                        width: 370px;
+                        height: 170px;
+                        margin-right: 20px;
+                        margin-left: 20px;
+                    }
+                    .body4Description{
+                    font-size: 12px;
+                    text-align: center;
+                    color: gray;
+                    margin-bottom: 7px;
+                    width: 80%;
+                    }
+                    .body4Name{
+                        font-weight: 700;
+                        font-size: 15px;
+                        margin-bottom: 5px;
+                        color: #0D2F3F;
+                    }
+                    .body4Major{
+                        font-size: 11px;
+                        color: gray;
+                    }
+                    .body4UserIcon{
+                        
+                        position: absolute;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 30px;
+                        top: -25px;
+                    }
+
+
+                    .buttonWrapper{
+                        width: 30px;
+                        height: 30px;
+                        margin-right: 15px;
+                    }
+                    .next{
+                        margin-right: 830px;
+                    }
+                    .prev{
+                        margin-left: 830px; 
+                    }
+
+
+
+
+                    .body5Container{
+                        
+                        height: 350px;
+                        
+                    }
+                    .body5ColumnText{
+                        font-size: 25px;
+                        
+                        width: 400px;
+                        margin-bottom: 25px;
+                        
+                    }
+                    .body5Input1{
+                        width: 400px;
+                        height: 25px;
+                        margin-bottom: 10px;
+                    }
+                    .body5Input2{
+                        width: 400px;
+                        height: 80px;
+                        margin-bottom: 10px;
+                    }
+                    .body5Button{
+                    width: 100px;
+                    height: 20px;
+                    margin-left: 310px;
+                    }
+                    .body5ButtonText{
+                        font-size: 10px;
+                    }
+                    .body5Column2Text1{
+                        font-size: 17px;
+                        margin-bottom:10px ;
+                    }
+                    .body5Column2Text2{
+                        font-size: 11px;
+                        margin-bottom: 25px;
+                    }
+                    .body5Links{
+                        
+                        font-size: 11px;
+                        margin-bottom: 20px;
+                    }
+                    .rightsfooter{
+                        font-size: 10px;
+                    }
+  }
